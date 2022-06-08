@@ -20,12 +20,36 @@ h1 {
     margin: auto;
     border: 3px solid rgb(128, 0, 66);
     padding: 10px;
+    background-image: url(/Images/muizbackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.divide {
-    grid-template-columns: repeat(2, 1fr);
+#question {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    padding: 5% 0% 0% 0%;
 }
 
-.muizbackground {
-    opacity: 30%;
-}
+#answer-buttons {
+    display: grid;
+    padding: 17% 0% 0% 0%;
+    border-radius: 5px;
+    justify-content: center;
+  }
+
+  .btn {
+      width: 500px;
+  }
+  
+  .btn:hover {
+    border-color: black;
+  }
+
+  .controls {
+      text-align: center;
+      padding: 15px 0% 0% 0%;
+      gap: 50px;
+  }
