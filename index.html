@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="assets/style.css">
+    <script defer src="assets/script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Muiz - The Movie Quiz">
@@ -11,9 +12,28 @@
 
 <body>
     <h1>Muiz!</h1>
+    <div class="container">
+        Q1 - How long was the movie Avengers Endgame?<br>
+        <input type="radio" name="question1" id="correct1">3h 2m<br>
+        <input type="radio" name="question1">4h<br>
+        <input type="radio" name="question1">2h 30m<br>
+        <button class="next" onclick="next(1)">Next</button>
+    </div>
 
-    <div class="box">
-        <div id="question">Question</div>
+    <div class="container">
+        Q2 - How long was the movie Terminator?<br>
+        <input type="radio" name="question2">3h 30m<br>
+        <input type="radio" name="question2">1h 2m<br>
+        <input type="radio" name="question2"id="correct1">1h 47m<br>
+        <button class="next" onclick="next(2)">Next</button>
+    </div>
+
+    <div class="container">
+        Q3 - How many seasons in Prison Break?<br>
+        <input type="radio" name="question3" id="correct1">5<br>
+        <input type="radio" name="question3">4<br>
+        <input type="radio" name="question3">7<br>
+        <button>Submit Quiz</button>
     </div>
 </body>
 </html>
