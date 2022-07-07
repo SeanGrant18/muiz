@@ -19,5 +19,11 @@ function result() {
     if (document.getElementById('correct3').checked) {
         score++;
     }
-    alert("You Have A Total Score Of : "+ score);
+    if (document.getElementById('correct4').checked) {
+        score++;
+    }
+    if (document.getElementById('correct5').checked) {
+        score++;
+    }
+    alert("You Have A Total Score Of : "+ score +"/5");
 }
